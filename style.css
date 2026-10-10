@@ -1,0 +1,19 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #263b36; background: #f7f8f5; }
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.7; }
+header, main, footer { width: min(860px, calc(100% - 40px)); margin: auto; }
+header { display: flex; justify-content: space-between; gap: 20px; align-items: center; padding: 25px 0; border-bottom: 1px solid #d8e2dc; }
+a { color: #276653; text-underline-offset: 4px; }
+.brand { font-size: 1.2rem; font-weight: 750; text-decoration: none; }
+main { padding: 48px 0; }
+h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.2; letter-spacing: -.025em; max-width: 760px; margin: 12px 0 24px; }
+h2 { font-size: 1.35rem; line-height: 1.35; margin-top: 0; }
+.eyebrow { color: #53665c; font-size: .9rem; }
+.intro { font-size: 1.15rem; }
+section { padding: 26px; margin: 24px 0; background: #fff; border: 1px solid #dce5df; border-radius: 14px; }
+section p:last-child { margin-bottom: 0; }
+.button { display: inline-block; border-radius: 8px; padding: 12px 18px; background: #276653; color: #fff; text-decoration: none; }
+footer { padding: 22px 0 34px; border-top: 1px solid #d8e2dc; font-size: .9rem; color: #53665c; }
+code { overflow-wrap: anywhere; }
+a:focus-visible { outline: 3px solid #bd762c; outline-offset: 4px; }
+@media (max-width: 500px) { header { align-items: flex-start; flex-direction: column; gap: 8px; } main { padding-top: 28px; } section { padding: 20px; } }
